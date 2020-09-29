@@ -1,0 +1,123 @@
+.ramka {
+    position: fixed;
+    width: 100%;
+    margin-top: 31px;
+    border: 1px solid rgba(214, 214, 214, 0.74)
+    
+    
+}
+
+.settings {
+margin-top: 3px;
+margin-left: 97%;
+position: fixed;
+}
+
+
+
+.home {
+top: 3px;
+    
+    position: fixed;
+} 
+
+
+.page-header {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 6;
+    transition: top .6s ease,.3s ease;
+    bottom: 0;
+}
+
+.przypiete {
+    position: fixed;
+    z-index: 6;
+}
+
+.fontsizedop {
+    font-size: 20px;
+}
+
+
+
+.ramkadop {
+
+    border: 2px inset black;
+}
+
+.menu {
+    
+    position: fixed;
+    
+}
+
+
+.grid1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    grid-gap: 7px;
+}
+
+
+.ramkadogrida {
+    border: 2px inset black;
+}
+
+.instagram {
+margin-left: 1300px;
+z-index: 6;
+
+position: fixed;
+
+}
+
+.facebook {
+    
+    margin-top: 4px;
+    height: 27px;
+    width: 36px;
+    z-index: 6;
+    margin-right: 1px;
+    position: fixed;
+    margin-left: 72.7%;
+    
+}
+
+.socialmediaborder {
+    border: 3px inset black;
+    
+}
+
+.twitter {
+    
+   margin-top: 4px;
+    position: fixed;
+    margin-left: 71%;
+
+}
+
+.marginek {
+    border: solid;  border-radius: 15px; 
+width: 100px;
+
+}
+
+.menu:hover {
+    background-color: rgb(214, 214, 214, 0.74);
+}
+
+
+.settings:hover {
+    background-color: rgb(214, 214, 214, 0.74);
+}
+
+.home:hover {
+    background-color: rgb(214, 214, 214, 0.74);
+}
+
+body {
+    font-family: 'Peddana', serif;
+}
