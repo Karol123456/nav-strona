@@ -67,7 +67,7 @@ top: 3px;
 }
 
 .instagram {
-margin-left: 1300px;
+margin-left: 1310px;
 z-index: 6;
 
 position: fixed;
@@ -96,7 +96,7 @@ position: fixed;
    margin-top: 4px;
     position: fixed;
     margin-left: 71%;
-
+margin-right: 3px;
 }
 
 .marginek {
@@ -121,3 +121,16 @@ width: 100px;
 body {
     font-family: 'Peddana', serif;
 }
+
+.ramka2 {
+    border: 2px inset gray;
+}
+
+.facebook:hover {
+    background-color: rgb(214, 214, 214, 0.74);
+}
+
+.instagram:hover {
+    background-color: rgb(214, 214, 214, 0.74);
+}
+
