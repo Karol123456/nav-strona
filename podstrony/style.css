@@ -108,6 +108,7 @@ width: 100px;
 .menu:hover {
     background-color: rgb(214, 214, 214, 0.74);
     transition: 1.5s;
+    
 }
 
 
@@ -169,3 +170,5 @@ body {
     transition: 1.5s;
     overflow: auto;
 }
+
+
