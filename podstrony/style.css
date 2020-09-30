@@ -1,14 +1,14 @@
 .ramka {
     position: fixed;
     width: 100%;
-    margin-top: 31px;
+    margin-top: 40px;
     border: 1px solid rgba(214, 214, 214, 0.74)
     
     
 }
 
 .settings {
-margin-top: 3px;
+margin-top: 1px;
 margin-left: 97%;
 position: fixed;
 }
@@ -50,7 +50,7 @@ top: 3px;
 .menu {
     
     position: fixed;
-    
+    top: 1s;
 }
 
 
@@ -69,14 +69,14 @@ top: 3px;
 .instagram {
 margin-left: 1310px;
 z-index: 6;
-
+top: 1s;
 position: fixed;
 
 }
 
 .facebook {
     
-    margin-top: 4px;
+    margin-top: 2px;
     height: 27px;
     width: 36px;
     z-index: 6;
@@ -93,9 +93,9 @@ position: fixed;
 
 .twitter {
     
-   margin-top: 4px;
+   margin-top: 3px;
     position: fixed;
-    margin-left: 71%;
+    margin-left: 71.3%;
 margin-right: 3px;
 }
 
@@ -107,15 +107,18 @@ width: 100px;
 
 .menu:hover {
     background-color: rgb(214, 214, 214, 0.74);
+    transition: 1.5s;
 }
 
 
 .settings:hover {
     background-color: rgb(214, 214, 214, 0.74);
+    transition: 1.5s;
 }
 
 .home:hover {
     background-color: rgb(214, 214, 214, 0.74);
+    transition: 1.5s;
 }
 
 body {
@@ -128,9 +131,41 @@ body {
 
 .facebook:hover {
     background-color: rgb(214, 214, 214, 0.74);
+    transition: 1.5s;
 }
 
 .instagram:hover {
     background-color: rgb(214, 214, 214, 0.74);
+    transition: 1.5s;
+    overflow: auto;
 }
 
+.btn {
+    background-color: black;
+    border: none;
+    width: 24%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    min-width: 90px;
+    font-family: 'Peddana', serif;
+
+}
+
+.btn:hover {
+    background-color: rgba(153, 149, 149, 0.74);
+    transition: 1.5s;
+}
+
+.center {
+    justify-content: center;
+}
+
+.twitter:hover {
+    background-color: rgb(153, 149, 149, 0.74);
+    transition: 1.5s;
+    overflow: auto;
+}
